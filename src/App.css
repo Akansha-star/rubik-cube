@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.rubik-cube {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  position: relative;
+  margin-top: 100px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+.flat {
+  width: 195px;
+  height: 195px;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+}
